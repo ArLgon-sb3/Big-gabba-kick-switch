@@ -2,10 +2,6 @@
 <html>
 <head>
 <script>
-function audio() {
-    document.getElementById('btn_audio').currentTime = 0; //連続クリックに対応
-    document.getElementById('btn_audio').play(); //クリックしたら音を再生
-}
 
 
 </script>
@@ -15,7 +11,7 @@ function audio() {
 <body>
 <h1 style="text-align:center;" class="title"><strong>いつでもクソデカガバキックボタン</strong></h1>
 <div class="mawari">
-<div class="btn" onclick="audio()“>GABBA KICK</div>
+<div class="btn" onclick="btn_audio.play()“>GABBA KICK</div>
 <audio id="btn_audio">
     <source src="btn_sound.wav" type="audio/wav"></audio>
 </div>
