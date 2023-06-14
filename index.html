@@ -2,7 +2,11 @@
 <html>
 <head>
 <script>
+function audio(){
+btn_audio.currentTime = 0;
+btn_audio.play();
 
+}
 
 </script>
 <link rel="stylesheet" type="text/css" href="base.css">
@@ -11,7 +15,7 @@
 <body>
 <h1 style="text-align:center;" class="title"><strong>いつでもクソデカガバキックボタン</strong></h1>
 <div class="mawari">
-<input type="button" id="btn1" value="button1" onclick="btn_audio.play()">
+<input type="button" id="btn1" value="button1" onclick="">
 <audio id="btn_audio">
     <source src="btn_sound.wav" type="audio/wav"></audio>
 </div>
