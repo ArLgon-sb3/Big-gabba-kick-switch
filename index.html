@@ -8,6 +8,12 @@ btn_audio.play();
 
 }
 
+function audio2(){
+btn_audio.currentTime = 0;
+btn_audio.play();
+
+}
+
 </script>
 <link rel="stylesheet" type="text/css" href="base.css">
 </head>
@@ -18,6 +24,8 @@ btn_audio.play();
 <input type="button" id="btn1" value="button1" onclick="audio()">
 <audio id="btn_audio">
     <source src="btn_sound.wav" type="audio/wav"></audio>
+<audio id="btn_audio2">
+    <source src="btn_sound2.wav" type="audio/wav"></audio>
 </div>
 </body>
 
